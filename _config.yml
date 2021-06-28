@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 达源Blog
+subtitle: '记录学习和生活的点点滴滴'
+description: '往死里学'
 keywords:
-author: tandayuan
-language: en
-timezone: ''
+author: 谭达源
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -98,7 +98,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: landscape
+theme: hexo-theme-next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
@@ -117,3 +117,9 @@ live2d:
         height: 300      #模型高度
     mobile: 
         show: false      #是否在手机端显示
+# 增加阅读次数/时长和访客数
+symbols_count_time:
+  symbols: true #是否统计字数
+  time: true #是否统计阅读时长
+  total_symbols: true #是否统计总字数
+  total_time: true #是否统计总阅读时长
